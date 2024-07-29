@@ -15,4 +15,4 @@ def init_console():
             print("Database tersedia, init done.")
     except:
         print("Database tidak ditemukan, silahkan buat database baru")
-        Operasi.create_first_data()
+        Operasi.create_first_data() 
